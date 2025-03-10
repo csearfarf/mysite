@@ -1,0 +1,409 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #283953;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #172131;
+}
+
+.d-none {
+    display: none !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #fff;
+    color: #3C4858;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+/* A generic .container class to center content with padding */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* equal left/right padding */
+}
+
+/* 
+NAVBAR
+1) position: fixed to stay at the top while scrolling
+2) transparent background by default
+3) transition for smooth color AND shadow change
+4) high z-index so it stays above content
+*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    /* start transparent */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* nav items on the right (adjust as needed) */
+    height: 70px;
+    /* adjust as needed */
+}
+
+/* NAV LINKS */
+/* By default, black text when navbar is transparent */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    /* space between links */
+}
+
+.nav-links a {
+    color: #333333;
+    /* default text color (transparent bg) */
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+/* HAMBURGER ICON (HIDDEN ON DESKTOP) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    /* default bar color */
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+/* SIDENAV (OFF-CANVAS) */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidenav a {
+    padding: 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 
+MEDIA QUERY: 
+For screens 768px and below, hide desktop nav and show hamburger icon
+*/
+@media (max-width: 1024px) {
+    .row {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hero-image {
+        height: auto;
+        min-width: 280px;
+        /* allow container height to adjust */
+    }
+
+    .hero-image img {
+        height: auto;
+        max-height: 400px;
+        min-width: 280px;
+        /* ensure the image scales down responsively */
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-image {
+        /* Remove fixed height so it auto-resizes */
+        height: auto;
+    }
+
+    .hero-image img {
+        height: auto;
+        /* ensures the image scales responsively */
+        object-fit: contain;
+        /* maintains the aspect ratio */
+    }
+}
+
+
+/* 
+SCROLLED CLASS:
+1) Changes navbar background to #172131
+2) Changes text (and hamburger) color to white
+3) Adds a shadow at the bottom of the navbar
+*/
+.navbar.scrolled {
+    background-color: #172131;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(23, 33, 49, 0.46);
+}
+
+.navbar.scrolled .nav-links a {
+    color: #fff;
+}
+
+.navbar.scrolled .hamburger span {
+    background-color: #fff;
+}
+
+/* HERO / HEADER SECTION */
+/* Add top padding so content isn't hidden behind the fixed navbar */
+#header-section {
+    padding-top: 80px;
+    /* 70px navbar + 10px buffer */
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+
+
+.generic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* space for small screens if stacked */
+}
+
+
+.hero-image img {
+    height: 780px;
+    margin-left: -130px;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 400px;
+    margin-left: 20px;
+}
+
+.hero-text h2 {
+    color: #172131;
+    font-size: 24px;
+    margin-bottom: -5px;
+    font-weight: lighter !important;
+}
+
+.hero-text h1 {
+    color: #172131;
+    font-size: 50px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.resume-btn {
+    background-color: #172131;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none !important;
+
+}
+
+.resume-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(23, 33, 49, 0.42),
+        0 4px 23px 0 rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(23, 33, 49, 0.2);
+}
+
+/* OTHER SECTIONS */
+section {
+    padding: 60px 0;
+}
+
+section h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #172131;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#about-section,
+#hobbies-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#about-section h1,
+#hobbies-section h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text-formatted {
+    color: #3C4858 !important;
+    line-height: 1.3 !important;
+    font-size: 14px;
+    font-weight: lighter !important;
+}
+
+.custom-bg-section {
+    background: url('../img/img-bg1.svg') no-repeat center center;
+}
+
+.text-capitalize {
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.borderize-title {
+    border-bottom: 4px solid #3A3768;
+    width: 200px;
+}
+
+.borderize-title-secondary {
+    border-left: 4px solid #5F5570;
+    padding-left: 10px;
+    margin-top: 14px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.mt-5 {
+    margin-top: 30px;
+}
+
+/* Slide-In Animation Styles - Now Slides From Right */
+.animate-slide-left {
+    opacity: 0;
+    transform: translateX(50px);
+    /* Starts 50px to the right */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-slide-left.slide-in-left {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Slide-In Top Animation Styles */
+.animate-slide-top {
+    opacity: 0;
+    transform: translateY(-50px);
+    /* Starts 50px above its normal position */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-slide-top.slide-in-top {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.img-svg {
+    width: 460px;
+}

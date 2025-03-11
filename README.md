@@ -1,52 +1,61 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://pawii.netlify.app/assets/img/favicon.png"></a>
+  <a href="https://pawii.netlify.app" rel="noopener">
+    <img src="https://pawii.netlify.app/assets/img/favicon.png" alt="Logo" width="150">
+  </a>
 </p>
 
 <h3 align="center">IS 207 - Mini Project</h3>
 
 ---
 
-<p align="center"> 
-    <br> 
-</p>
-
 ## 📝 Table of Contents
 
 - [About Me](#about)
-- [Hobbies & Interest](#hobbies_interest)
+- [Hobbies & Interests](#hobbies--interests)
 - [Contact](#contact)
+- [Built Using](#built-using)
+- [Authors](#authors)
 
+---
 
- <img width=8500px height=600px src="https://pawii.netlify.app/assets/img/git/banner.png">
+<p align="center">
+  <img src="https://pawii.netlify.app/assets/img/git/banner.png" alt="Banner" style="max-width: 100%; height: auto;">
+</p>
 
+## 🍃 About <a name="about"></a>
 
-## 🍃 About <a name = "about"></a>
+Hi, I'm **Paolo Escotido** — a tech enthusiast with a focus on **full stack development** and **cybersecurity**.  
+I work at **International School Manila**, building intuitive interfaces, scalable back-end systems, and secure applications.  
+I'm also open to **commission projects**—from websites to security assessments, I'm here to help bring ideas to life.
 
-Hi, I'm Paolo Escotido — a tech enthusiast with a focus on full stack development and cybersecurity.
-I work at International School Manila, building intuitive interfaces, scalable back-end systems, and secure applications.
-I'm also open to commission projects—from websites to security assessments, I'm here to help bring ideas to life.
+<p align="center">
+  <img src="https://pawii.netlify.app/assets/img/git/about.png" alt="About Image 1" width="100%">
+</p>
+<p align="center">
+  <img src="https://pawii.netlify.app/assets/img/git/about1.png" alt="About Image 2" width="100%">
+</p>
 
- <img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/about.png">
-<img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/about1.png">
+## ❤️ Hobbies & Interests <a name="hobbies--interests"></a>
 
-## 🏁 Hobbies & Interest <a name = "hobbies_interest"></a>
+<p align="center">
+  <img src="https://pawii.netlify.app/assets/img/git/hobbies.png" alt="Hobbies Image" width="100%">
+</p>
 
- <img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/hobbies.png">
+## 📞 Contact <a name="contact"></a>
 
-## 🚀 Contact <a name = "contact"></a>
+<p align="center">
+  <img src="https://pawii.netlify.app/assets/img/git/contact.png" alt="Contact Image" width="100%">
+</p>
 
- <img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/contact.png">
+## ⛏️ Built Using <a name="built-using"></a>
 
-## ⛏️ Built Using <a name = "built_using"></a>
+- **HTML** – Structure of the webpage  
+- **CSS** – Styling the layout and visuals  
+- **Font Awesome** – Icon library  
+- **Undraw.co** – SVG vector illustrations  
+- **Native JS** – DOM manipulation and interaction  
+- **Netlify** – SPA deployment platform
 
-- [HTML] - Structure of webpage.
-- [CSS] - Styling your webpage.
-- [Fontawesome] -for icon library.
-- [Undraw.co] - for svg vector images.
-- [NativeJS] - Manipulation of objects in webpage.
-- [Netlify] - Deployment of this SPA Page.
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Author <a name="author"></a>
 
-- [@csearfarf](https://github.com/csearfarf) - Idea & Initial work
-
+- [@csearfarf](https://github.com/csearfarf) – Idea & Initial Work

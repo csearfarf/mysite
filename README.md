@@ -8,13 +8,17 @@
 
 ---
 
+<p align="center"><em>You can explore the live project here:</em> 👉 <a href="https://pawii.netlify.app">https://pawii.netlify.app</a></p>
+
+---
+
 ## 📝 Table of Contents
 
 - [About Me](#about)
 - [Hobbies & Interests](#hobbies--interests)
 - [Contact](#contact)
 - [Built Using](#built-using)
-- [Authors](#authors)
+- [Author](#author)
 
 ---
 

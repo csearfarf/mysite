@@ -17,6 +17,11 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/index.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -26,9 +31,9 @@
         <div class="container">
             <!-- Desktop Nav Links (hidden on mobile) -->
             <nav class="nav-links">
-                <a href="#about-section">About</a>
-                <a href="#hobbies-section">Passion</a>
-                <a href="#contact-section">Contact</a>
+                <a href="#about-section"><i class="fa-solid fa-leaf"></i>About</a>
+                <a href="#hobbies-section"><i class="fa-solid fa-heart-pulse"></i>Passion</a>
+                <a href="#contact-section"><i class="fa-solid fa-phone"></i>Contact</a>
             </nav>
 
             <!-- Hamburger Icon (only visible on mobile) -->
@@ -44,13 +49,16 @@
     <div id="sidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
         <!-- Mobile Nav Links -->
-        <a href="#about-section">About</a>
-        <a href="#hobbies-section">Passions</a>
-        <a href="#contact-section">Contact Info</a>
+        <a href="#about-section"><i class="fa-solid fa-leaf"></i>About</a>
+        <a href="#hobbies-section"><i class="fa-solid fa-heart-pulse"></i>Passion</a>
+        <a href="#contact-section"><i class="fa-solid fa-phone"></i>Contact Info</a>
     </div>
 
     <!-- MAIN CONTENT -->
     <main>
+        <!-- Back to top button -->
+        <a id="btn-up"></a>
+
         <!-- HERO / HEADER SECTION -->
         <section id="header-section">
             <div class="container">
@@ -64,8 +72,8 @@
                         <h2>HELLO, I'M</h2>
                         <h1>PAOLO ESCOTIDO</h1>
                         <p>Enthusiast Fullstack Developer &amp; Cybersecurity Analyst</p>
-                        <a class="resume-btn" href="mailto:escotidopaolo@gmail.com"> <span
-                                style="font-weight: bold;font-size: 18px;margin-top: 10px;">&#60;&#47;&#62;</span> REACH
+                        <a class="resume-btn" href="mailto:escotidopaolo@gmail.com">
+                            <i class="fa-solid fa-code"></i> REACH
                             ME </a>
                     </div>
                 </div>
@@ -118,8 +126,8 @@
                             <img class="img-svg" src="assets/img/img-aboutme.svg" />
                         </div>
                     </div>
-                    <div class="row ">
-                        <div class="container">
+                    <div class="row education">
+                        <div class="container img-container">
                             <img class="img-svg" src="assets/img/img-about-more.svg" />
                         </div>
                         <div class="container">
@@ -162,24 +170,101 @@
 
                 <h1 class="text-capitalize animate-slide-top">Hobbies &amp; Interest</h1>
                 <div class="container">
-                    <p>
-                        This section can describe your favorite hobbies, personal interests,
-                        and any activities you enjoy in your free time.
-                    </p>
-                </div>
-            </section>
+                    <div class="grid-hobbies">
+                        <div class="card-hobby">
+                            <div class="hobby-content">
+                                <img class="img-hobbies" src="assets/img/scooter.svg" />
+                            </div>
+                            <div>
+                                <p class="hobby-title">Scooter Riding</p>
+                                <small>
+                                    I enjoy riding my scooter to unwind and explore.</br>
+                                    <b>Fun fact:</b> I once hit 94 kph on my electric scooter along EDSA!
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-hobby">
+                            <div class="hobby-content">
+                                <img class="img-hobbies" src="assets/img/programming.svg" />
+                            </div>
+                            <div>
+                                <p class="hobby-title">Software Development</p>
+                                <small>I enjoy developing software solutions—from web apps to small
+                                    tools—turning ideas into working systems that solve real-world problems.</small>
+                            </div>
+                        </div>
+                        <div class="card-hobby">
+                            <div class="hobby-content">
+                                <img class="img-hobbies" src="assets/img/automation.svg" />
+                            </div>
+                            <div>
+                                <p class="hobby-title">Automation</p>
+                                <small>Passionate about automating tasks and workflows, using scripts and tools to boost
+                                    efficiency and simplify everyday processes.</small>
+                            </div>
+                        </div>
+                        <div class="card-hobby">
+                            <div class="hobby-content">
+                                <img class="img-hobbies" src="assets/img/led.svg" />
+                            </div>
+                            <div>
+                                <p class="hobby-title">Custom LED Projects</p>
+                                <small>I enjoy working on custom LED projects as a hobby, creating unique lighting
+                                    setups and designs for both aesthetic and functional purposes. It’s a creative
+                                    outlet that blends electronics, coding, and design.</small>
+                            </div>
+                        </div>
+                    </div>
 
-            <!-- CONTACT INFO SECTION -->
-            <section id="contact-section">
-                <div class="container">
-                    <h1>Contact Info</h1>
-                    <p>
-                        Here you can share your email, phone number, or social media profiles
-                        so people can get in touch with you.
-                    </p>
                 </div>
-            </section>
+
+
         </div>
+        </section>
+
+        <!-- CONTACT INFO SECTION -->
+        <section id="contact-section">
+            <h1 class="text-capitalize animate-slide-top">CONTACT</h1>
+            <div class="row">
+                <div class="container">
+                    <h2 class="borderize-title text-bold animate-slide-left">GET IN TOUCH</h2>
+                    <p>
+                        Say hi or lets talk about some project collaboration, send me a
+                        message and I will response as soon as possible. :)
+                    </p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+6392314123411</p>
+                    <p><i class="fa-solid fa-envelope-open-text"></i>escotidopaolo@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Taguig,PH</p>
+                </div>
+
+            </div>
+
+        </section>
+        </div>
+        <footer class="footer footer-white">
+            <div class="container">
+
+
+                <ul class="social-buttons">
+                    <li>
+                        <a href="https://github.com/csearfarf" target="_blank">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/csearfarf" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/csearfarf" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </footer>
     </main>
 
     <script>
@@ -244,6 +329,38 @@
         // Set up observers for the slide-in-left and slide-in-top animations
         setupObserver('.animate-slide-left', 'slide-in-left');
         setupObserver('.animate-slide-top', 'slide-in-top');
+
+
+        var btn = document.getElementById('btn-up');
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 300) {
+                btn.classList.add('show');
+            } else {
+                btn.classList.remove('show');
+            }
+        });
+
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        //Adjust scroll offset if you have a fixed header
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const yOffset = -70; // adjust if you have a fixed navbar
+                    const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+                }
+            });
+        });
 
     </script>
 </body>

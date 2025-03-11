@@ -1,18 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://pawii.netlify.app/assets/img/favicon.png"></a>
 </p>
 
-<h3 align="center">IS 207- Mini Project</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
+<h3 align="center">IS 207 - Mini Project</h3>
 
 ---
 
@@ -22,84 +13,39 @@
 
 ## 📝 Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [About Me](#about)
+- [Hobbies & Interest](#hobbies_interest)
+- [Contact](#contact)
 
-## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+ <img width=8500px height=600px src="https://pawii.netlify.app/assets/img/git/banner.png">
 
-## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+## 🍃 About <a name = "about"></a>
 
-### Prerequisites
+Hi, I'm Paolo Escotido — a tech enthusiast with a focus on full stack development and cybersecurity.
+I work at International School Manila, building intuitive interfaces, scalable back-end systems, and secure applications.
+I'm also open to commission projects—from websites to security assessments, I'm here to help bring ideas to life.
 
-What things you need to install the software and how to install them.
+ <img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/about.png">
+<img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/about1.png">
 
-```
-Give examples
-```
+## 🏁 Hobbies & Interest <a name = "hobbies_interest"></a>
 
-### Installing
+ <img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/hobbies.png">
 
-A step by step series of examples that tell you how to get a development env running.
+## 🚀 Contact <a name = "contact"></a>
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Using a Netlify
+ <img width=850px height=600px src="https://pawii.netlify.app/assets/img/git/contact.png">
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [HTML] - Structure of webpage
-- [CSS] - Styling your webpage
-- [NativeJS] - Manipulation of objects in webpage
-
+- [HTML] - Structure of webpage.
+- [CSS] - Styling your webpage.
+- [Fontawesome] -for icon library.
+- [Undraw.co] - for svg vector images.
+- [NativeJS] - Manipulation of objects in webpage.
+- [Netlify] - Deployment of this SPA Page.
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@csearfarf](https://github.com/csearfarf) - Idea & Initial work

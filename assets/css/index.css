@@ -239,6 +239,11 @@ body {
     #header-section div .hero-text p {
         font-size: 14px !important;
     }
+
+    .hero-text {
+        padding: 0 20px;
+    }
+
 }
 
 /* ==============================

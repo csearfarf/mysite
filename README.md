@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h3 align="center">IS 207 - Mini Project</h3>
+<h3 align="center">CMSC 207 - Mini Project</h3>
 
 ---
 

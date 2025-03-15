@@ -224,6 +224,23 @@ body {
     }
 }
 
+@media (min-width:350px) {
+
+    #about-section h1,
+    #hobbies-section h1,
+    #contact-section h1 {
+        font-size: 30px !important;
+    }
+
+    #header-section div .hero-text h1 {
+        font-size: 35px !important;
+    }
+
+    #header-section div .hero-text p {
+        font-size: 14px !important;
+    }
+}
+
 /* ==============================
      Scrolled Navbar
      ============================== */

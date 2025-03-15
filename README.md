@@ -17,6 +17,7 @@
 - [About Me](#about)
 - [Hobbies & Interests](#hobbies--interests)
 - [Contact](#contact)
+- [Mobile View](#mobile)
 - [Built Using](#built-using)
 - [Author](#author)
 
@@ -49,6 +50,13 @@ I'm also open to **commission projects**—from websites to security assessments
 
 <p align="center">
   <img src="https://pawii.netlify.app/assets/img/git/contact.png" alt="Contact Image" width="100%">
+</p>
+
+
+## 📲 Mobile View <a name="mobile"></a>
+
+<p align="center">
+  <img src="https://pawii.netlify.app/assets/img/git/MobileView.png" alt="Mobile View" width="100%">
 </p>
 
 ## ⛏️ Built Using <a name="built-using"></a>
